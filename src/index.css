@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 6%;
+    --foreground: 210 20% 92%;
+
+    --card: 220 18% 10%;
+    --card-foreground: 210 20% 92%;
+
+    --popover: 220 18% 10%;
+    --popover-foreground: 210 20% 92%;
+
+    /* Primary blue - vibrant accent */
+    --primary: 199 89% 48%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 199 80% 38%;
+
+    --secondary: 220 16% 16%;
+    --secondary-foreground: 210 20% 92%;
+
+    --muted: 220 10% 30%;
+    --muted-foreground: 220 10% 58%;
+
+    --accent: 199 89% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --warning: 32 95% 44%;
+    --warning-foreground: 32 100% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 16% 14%;
+    --input: 220 16% 14%;
+    --ring: 199 89% 48%;
+
+    --radius: 0.75rem;
+
+    --gradient-primary: linear-gradient(135deg, hsl(199 89% 48%), hsl(199 80% 38%));
+    --gradient-radial: radial-gradient(1200px 600px at 80% -20%, hsl(220 20% 12%) 10%, transparent 60%),
+                       radial-gradient(900px 500px at -10% 10%, hsl(220 18% 10%) 10%, transparent 60%);
+    --gradient-card: linear-gradient(180deg, hsl(220 20% 11%), hsl(220 18% 8%));
+
+    --shadow-automotive: 0 10px 30px rgba(0, 0, 0, 0.4);
+    --shadow-primary-glow: 0 8px 24px rgba(14, 165, 233, 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: var(--gradient-radial), hsl(var(--background));
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+}
+
+/* Grid overlay for hero */
+.hero-grid-overlay {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
