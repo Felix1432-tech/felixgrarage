@@ -54,6 +54,7 @@ const Importados = () => {
                 <p className="text-muted-foreground mb-6 text-lg">{brand.tagline}</p>
                 <Button
                   variant="automotive"
+                  size="lg"
                   onClick={scrollToContact}
                   className="gap-2"
                 >
