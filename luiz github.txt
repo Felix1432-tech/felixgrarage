@@ -1,0 +1,18 @@
+https://github.com/gutomec/aios-god-mode-template.git
+
+Ative sua skill aios-god-mode.
+
+Utilize AIOS para criar uma landing page de alta conversão para um sistema de acompanhamento médico de uma clínica de nutrologia. A equipe médica deve estar disponível para acompanhamento contínuo de atendimentos relacionados à nutrologia, como emagrecimento e reeducação alimentar.
+
+O plano de assinatura mensal custa R$347.
+
+Gere fotografias utilizando nano banana pro com qualidade de fotógrafo profissional, transmitindo credibilidade, profissionalismo e padrão premium.
+
+Implemente um sistema completo com backend que:
+
+Salve os leads em um banco de dados SQLite.
+Possua painel de administração com autenticação via SQLite.
+Permita que usuários cadastrados analisem estatísticas dos leads coletados.
+Exiba uma tabela com os leads cadastrados.
+Tenha um botão para exportação dos leads em formato Excel (.xlsx).
+Para o planejamento do projeto, utilize suas melhores skills estratégicas. Após concluir o planejamento, execute toda a implementação utilizando a skill aios-god-mode.

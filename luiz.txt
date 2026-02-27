@@ -1,0 +1,162 @@
+Eu tenho um atualise.md com isso:
+
+description: Atualiza conhecimento sobre qualquer tópico com pesquisa exaustiva na internet, priorizando informações mais recentes
+argument-hint: [tópico] [ano opcional, padrão: 2026]
+/atualise - Atualização Profunda de Conhecimento
+Pesquisa incansável e sistemática para dominar completamente um assunto.
+
+Parsing dos Argumentos
+Input: $ARGUMENTS
+- Tópico principal: primeira parte do argumento
+- Ano alvo: número de 4 dígitos se presente, senão usar 2026
+- Filtros adicionais: quaisquer termos extras mencionados
+Execução
+1. Mapeamento Inicial (Obrigatório)
+Antes de qualquer busca, criar mapa mental do tópico:
+
+## Mapa de Pesquisa: [TÓPICO]
+Ano alvo: [ANO]
+
+### Áreas a Investigar
+- [ ] Documentação oficial
+- [ ] Arquitetura/estrutura
+- [ ] Instalação/setup
+- [ ] Funcionalidades principais
+- [ ] APIs/integrações
+- [ ] Configurações avançadas
+- [ ] Best practices
+- [ ] Problemas comuns
+- [ ] Novidades recentes
+- [ ] Comunidade/suporte
+2. Pesquisa Sistemática
+Executar buscas na seguinte ordem, SEMPRE incluindo o ano alvo:
+
+Rodada 1 - Fundamentos:*
+
+[tópico] documentation [ano]
+[tópico] official guide [ano]
+[tópico] getting started [ano]
+Rodada 2 - Estrutura:
+
+[tópico] architecture [ano]
+[tópico] how it works
+[tópico] components features
+Rodada 3 - Prática:
+
+[tópico] tutorial [ano]
+[tópico] examples
+[tópico] best practices [ano]
+Rodada 4 - Avançado:
+
+[tópico] advanced configuration
+[tópico] plugins extensions
+[tópico] integrations API
+Rodada 5 - Atualidades:
+
+[tópico] new features [ano]
+[tópico] latest updates [ano]
+[tópico] changelog [ano]
+[tópico] roadmap
+Rodada 6 - Problemas:
+
+[tópico] common issues
+[tópico] troubleshooting
+[tópico] limitations
+3. Exploração Profunda
+Para cada resultado relevante:
+
+Usar web_fetch para ler conteúdo completo
+Seguir links para documentação relacionada
+Anotar referências para explorar depois
+Extrair exemplos de código/configuração
+4. Síntese Final
+Compilar tudo em resumo estruturado:
+
+# [TÓPICO] - Base de Conhecimento Atualizada ([ANO])
+
+## O que é
+[Descrição concisa]
+
+## Arquitetura/Estrutura
+[Como é organizado]
+
+## Componentes Principais
+- Componente 1: [descrição]
+- Componente 2: [descrição]
+
+## Como Usar
+[Passos essenciais]
+
+## Funcionalidades
+[Lista das principais features]
+
+## Configuração
+[Opções importantes]
+
+## Integrações
+[APIs, plugins, extensões]
+
+## Best Practices
+- [Prática 1]
+- [Prática 2]
+
+## Problemas Comuns e Soluções
+| Problema | Solução |
+|----------|---------|
+| ... | ... |
+
+## Novidades [ANO]
+[Mudanças recentes]
+
+## Recursos
+- Docs: [url]
+- GitHub: [url]
+- Comunidade: [url]
+
+## Lacunas de Conhecimento
+[O que não foi encontrado ou precisa mais pesquisa]
+
+---
+
+****Data da Pesquisa:**** [DATA_ATUAL]
+****Fontes Consultadas:**** [NUMERO] páginas de documentação oficial e artigos técnicos
+5. Salvar Relatório (OBRIGATÓRIO)
+Após compilar a síntese, SEMPRE salvar o relatório:
+
+Criar diretório research/ no diretório atual se não existir
+Gerar nome do arquivo baseado no tópico:
+Converter tópico para UPPER_SNAKE_CASE
+Remover caracteres especiais
+Exemplo: “claude agent sdk” → CLAUDE_AGENT_SDK.md
+Salvar arquivo em ./research/[NOME_TOPICO].md
+Confirmar ao usuário onde o arquivo foi salvo
+Exemplo de nome de arquivo:
+
+/atualise playwright mcp headless
+→ ./research/PLAYWRIGHT_MCP_HEADLESS.md
+
+/atualise react server components 2026
+→ ./research/REACT_SERVER_COMPONENTS.md
+
+/atualise kubernetes best practices
+→ ./research/KUBERNETES_BEST_PRACTICES.md
+Regras de Comportamento
+Nunca parar cedo - Mínimo 15 buscas por sessão
+Sempre usar web_fetch - Ler pelo menos 5 páginas completas
+Priorizar fontes oficiais - Docs > Blogs > Fóruns
+Filtrar por data - Preferir conteúdo do ano alvo
+Ser cético - Verificar se info ainda é válida
+Documentar gaps - Anotar o que não encontrou
+*SEMPRE salvar relatório - Criar arquivo em ./research/ após cada pesquisa
+Exemplos de Uso
+/atualise claude code
+→ Pesquisa exaustiva sobre Claude Code, priorizando 2026
+
+/atualise easypanel
+→ Pesquisa exaustiva sobre Coolify, priorizando 2026
+
+/atualise kubernetes 2025
+→ Pesquisa exaustiva sobre Kubernetes, priorizando 2025
+
+/atualise react server components 2026
+→ Pesquisa focada em React Server Components para 2026
